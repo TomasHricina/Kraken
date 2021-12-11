@@ -3,14 +3,15 @@
 Simple, effective way to inspect your Kraken portfolio
 
 ```
-git clone git@github.com:TomasHricina/Kraken.git   
-cd Kraken   
+git clone git@github.com:TomasHricina/Kraken-Portfolio-Viewer.git   
+cd Kraken-Portfolio-Viewer  
 *Insert trades.csv from Kraken Web gui ( History -> Export -> Select time range -> Export as csv -> Download )   
 conda create -n kraken python=3.10.0 -y   
 conda activate kraken   
 pip install pandas    
 pip install forex-python   
 pip install pykrakenapi   
+python kraken.py   
 ```
 
 Limitations:   

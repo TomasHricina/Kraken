@@ -11,7 +11,7 @@ conda activate kraken
 pip install pandas    
 pip install forex-python   
 pip install pykrakenapi   
-python kraken.py   
+python main.py   
 ```
 
 Limitations:   
